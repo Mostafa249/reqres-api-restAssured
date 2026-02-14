@@ -1,0 +1,60 @@
+# =========================
+# Maven / Java
+# =========================
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# =========================
+# IDEs
+# =========================
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# Eclipse
+.settings/
+*.launch
+
+# VS Code
+.vscode/
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+*.out
+
+# =========================
+# Test Reports / Results
+# =========================
+allure-results/
+allure-report/
+test-output/
+surefire-reports/
+failsafe-reports/
+*.xml
+
+# =========================
+# Configuration / Secrets
+# =========================
+*.env
+config.properties
+*.keystore
+*.jks
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Other
+# =========================
+*.bak
+*.swp
